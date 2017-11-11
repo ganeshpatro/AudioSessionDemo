@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D51B03AB1FB75CEA00FD8203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B03AA1FB75CEA00FD8203 /* AppDelegate.swift */; };
+		D51B03AD1FB75CEA00FD8203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B03AC1FB75CEA00FD8203 /* ViewController.swift */; };
+		D51B03B01FB75CEA00FD8203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51B03AE1FB75CEA00FD8203 /* Main.storyboard */; };
+		D51B03B21FB75CEA00FD8203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51B03B11FB75CEA00FD8203 /* Assets.xcassets */; };
+		D51B03B51FB75CEA00FD8203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51B03B31FB75CEA00FD8203 /* LaunchScreen.storyboard */; };
+		D51B03C01FB75CEA00FD8203 /* HeadPhonesCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B03BF1FB75CEA00FD8203 /* HeadPhonesCheckerTests.swift */; };
+		D51B03CB1FB75CEA00FD8203 /* HeadPhonesCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B03CA1FB75CEA00FD8203 /* HeadPhonesCheckerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D51B03BC1FB75CEA00FD8203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D51B039F1FB75CE900FD8203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51B03A61FB75CE900FD8203;
+			remoteInfo = HeadPhonesChecker;
+		};
+		D51B03C71FB75CEA00FD8203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D51B039F1FB75CE900FD8203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51B03A61FB75CE900FD8203;
+			remoteInfo = HeadPhonesChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D51B03A71FB75CE900FD8203 /* HeadPhonesChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadPhonesChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51B03AA1FB75CEA00FD8203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D51B03AC1FB75CEA00FD8203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D51B03AF1FB75CEA00FD8203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D51B03B11FB75CEA00FD8203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D51B03B41FB75CEA00FD8203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D51B03B61FB75CEA00FD8203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51B03BB1FB75CEA00FD8203 /* HeadPhonesCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadPhonesCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51B03BF1FB75CEA00FD8203 /* HeadPhonesCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadPhonesCheckerTests.swift; sourceTree = "<group>"; };
+		D51B03C11FB75CEA00FD8203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51B03C61FB75CEA00FD8203 /* HeadPhonesCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadPhonesCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51B03CA1FB75CEA00FD8203 /* HeadPhonesCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadPhonesCheckerUITests.swift; sourceTree = "<group>"; };
+		D51B03CC1FB75CEA00FD8203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D51B03A41FB75CE900FD8203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51B03B81FB75CEA00FD8203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51B03C31FB75CEA00FD8203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D51B039E1FB75CE900FD8203 = {
+			isa = PBXGroup;
+			children = (
+				D51B03A91FB75CE900FD8203 /* HeadPhonesChecker */,
+				D51B03BE1FB75CEA00FD8203 /* HeadPhonesCheckerTests */,
+				D51B03C91FB75CEA00FD8203 /* HeadPhonesCheckerUITests */,
+				D51B03A81FB75CE900FD8203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D51B03A81FB75CE900FD8203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D51B03A71FB75CE900FD8203 /* HeadPhonesChecker.app */,
+				D51B03BB1FB75CEA00FD8203 /* HeadPhonesCheckerTests.xctest */,
+				D51B03C61FB75CEA00FD8203 /* HeadPhonesCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D51B03A91FB75CE900FD8203 /* HeadPhonesChecker */ = {
+			isa = PBXGroup;
+			children = (
+				D51B03AA1FB75CEA00FD8203 /* AppDelegate.swift */,
+				D51B03AC1FB75CEA00FD8203 /* ViewController.swift */,
+				D51B03AE1FB75CEA00FD8203 /* Main.storyboard */,
+				D51B03B11FB75CEA00FD8203 /* Assets.xcassets */,
+				D51B03B31FB75CEA00FD8203 /* LaunchScreen.storyboard */,
+				D51B03B61FB75CEA00FD8203 /* Info.plist */,
+			);
+			path = HeadPhonesChecker;
+			sourceTree = "<group>";
+		};
+		D51B03BE1FB75CEA00FD8203 /* HeadPhonesCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D51B03BF1FB75CEA00FD8203 /* HeadPhonesCheckerTests.swift */,
+				D51B03C11FB75CEA00FD8203 /* Info.plist */,
+			);
+			path = HeadPhonesCheckerTests;
+			sourceTree = "<group>";
+		};
+		D51B03C91FB75CEA00FD8203 /* HeadPhonesCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D51B03CA1FB75CEA00FD8203 /* HeadPhonesCheckerUITests.swift */,
+				D51B03CC1FB75CEA00FD8203 /* Info.plist */,
+			);
+			path = HeadPhonesCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D51B03A61FB75CE900FD8203 /* HeadPhonesChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51B03CF1FB75CEA00FD8203 /* Build configuration list for PBXNativeTarget "HeadPhonesChecker" */;
+			buildPhases = (
+				D51B03A31FB75CE900FD8203 /* Sources */,
+				D51B03A41FB75CE900FD8203 /* Frameworks */,
+				D51B03A51FB75CE900FD8203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeadPhonesChecker;
+			productName = HeadPhonesChecker;
+			productReference = D51B03A71FB75CE900FD8203 /* HeadPhonesChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D51B03BA1FB75CEA00FD8203 /* HeadPhonesCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51B03D21FB75CEA00FD8203 /* Build configuration list for PBXNativeTarget "HeadPhonesCheckerTests" */;
+			buildPhases = (
+				D51B03B71FB75CEA00FD8203 /* Sources */,
+				D51B03B81FB75CEA00FD8203 /* Frameworks */,
+				D51B03B91FB75CEA00FD8203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D51B03BD1FB75CEA00FD8203 /* PBXTargetDependency */,
+			);
+			name = HeadPhonesCheckerTests;
+			productName = HeadPhonesCheckerTests;
+			productReference = D51B03BB1FB75CEA00FD8203 /* HeadPhonesCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D51B03C51FB75CEA00FD8203 /* HeadPhonesCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51B03D51FB75CEA00FD8203 /* Build configuration list for PBXNativeTarget "HeadPhonesCheckerUITests" */;
+			buildPhases = (
+				D51B03C21FB75CEA00FD8203 /* Sources */,
+				D51B03C31FB75CEA00FD8203 /* Frameworks */,
+				D51B03C41FB75CEA00FD8203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D51B03C81FB75CEA00FD8203 /* PBXTargetDependency */,
+			);
+			name = HeadPhonesCheckerUITests;
+			productName = HeadPhonesCheckerUITests;
+			productReference = D51B03C61FB75CEA00FD8203 /* HeadPhonesCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D51B039F1FB75CE900FD8203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ganesh Patro";
+				TargetAttributes = {
+					D51B03A61FB75CE900FD8203 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D51B03BA1FB75CEA00FD8203 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D51B03A61FB75CE900FD8203;
+					};
+					D51B03C51FB75CEA00FD8203 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D51B03A61FB75CE900FD8203;
+					};
+				};
+			};
+			buildConfigurationList = D51B03A21FB75CE900FD8203 /* Build configuration list for PBXProject "HeadPhonesChecker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D51B039E1FB75CE900FD8203;
+			productRefGroup = D51B03A81FB75CE900FD8203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51B03A61FB75CE900FD8203 /* HeadPhonesChecker */,
+				D51B03BA1FB75CEA00FD8203 /* HeadPhonesCheckerTests */,
+				D51B03C51FB75CEA00FD8203 /* HeadPhonesCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D51B03A51FB75CE900FD8203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51B03B51FB75CEA00FD8203 /* LaunchScreen.storyboard in Resources */,
+				D51B03B21FB75CEA00FD8203 /* Assets.xcassets in Resources */,
+				D51B03B01FB75CEA00FD8203 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51B03B91FB75CEA00FD8203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51B03C41FB75CEA00FD8203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D51B03A31FB75CE900FD8203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51B03AD1FB75CEA00FD8203 /* ViewController.swift in Sources */,
+				D51B03AB1FB75CEA00FD8203 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51B03B71FB75CEA00FD8203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51B03C01FB75CEA00FD8203 /* HeadPhonesCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51B03C21FB75CEA00FD8203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51B03CB1FB75CEA00FD8203 /* HeadPhonesCheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D51B03BD1FB75CEA00FD8203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D51B03A61FB75CE900FD8203 /* HeadPhonesChecker */;
+			targetProxy = D51B03BC1FB75CEA00FD8203 /* PBXContainerItemProxy */;
+		};
+		D51B03C81FB75CEA00FD8203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D51B03A61FB75CE900FD8203 /* HeadPhonesChecker */;
+			targetProxy = D51B03C71FB75CEA00FD8203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D51B03AE1FB75CEA00FD8203 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51B03AF1FB75CEA00FD8203 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D51B03B31FB75CEA00FD8203 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51B03B41FB75CEA00FD8203 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D51B03CD1FB75CEA00FD8203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D51B03CE1FB75CEA00FD8203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D51B03D01FB75CEA00FD8203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadPhonesChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.test.HeadPhonesChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D51B03D11FB75CEA00FD8203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadPhonesChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.test.HeadPhonesChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D51B03D31FB75CEA00FD8203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadPhonesCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.test.HeadPhonesCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadPhonesChecker.app/HeadPhonesChecker";
+			};
+			name = Debug;
+		};
+		D51B03D41FB75CEA00FD8203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadPhonesCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.test.HeadPhonesCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadPhonesChecker.app/HeadPhonesChecker";
+			};
+			name = Release;
+		};
+		D51B03D61FB75CEA00FD8203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadPhonesCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.test.HeadPhonesCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeadPhonesChecker;
+			};
+			name = Debug;
+		};
+		D51B03D71FB75CEA00FD8203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeadPhonesCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.test.HeadPhonesCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeadPhonesChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D51B03A21FB75CE900FD8203 /* Build configuration list for PBXProject "HeadPhonesChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51B03CD1FB75CEA00FD8203 /* Debug */,
+				D51B03CE1FB75CEA00FD8203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51B03CF1FB75CEA00FD8203 /* Build configuration list for PBXNativeTarget "HeadPhonesChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51B03D01FB75CEA00FD8203 /* Debug */,
+				D51B03D11FB75CEA00FD8203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51B03D21FB75CEA00FD8203 /* Build configuration list for PBXNativeTarget "HeadPhonesCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51B03D31FB75CEA00FD8203 /* Debug */,
+				D51B03D41FB75CEA00FD8203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51B03D51FB75CEA00FD8203 /* Build configuration list for PBXNativeTarget "HeadPhonesCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51B03D61FB75CEA00FD8203 /* Debug */,
+				D51B03D71FB75CEA00FD8203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D51B039F1FB75CE900FD8203 /* Project object */;
+}

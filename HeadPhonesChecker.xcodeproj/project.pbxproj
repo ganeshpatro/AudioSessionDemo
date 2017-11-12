@@ -14,6 +14,8 @@
 		D51B03B51FB75CEA00FD8203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51B03B31FB75CEA00FD8203 /* LaunchScreen.storyboard */; };
 		D51B03C01FB75CEA00FD8203 /* HeadPhonesCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B03BF1FB75CEA00FD8203 /* HeadPhonesCheckerTests.swift */; };
 		D51B03CB1FB75CEA00FD8203 /* HeadPhonesCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B03CA1FB75CEA00FD8203 /* HeadPhonesCheckerUITests.swift */; };
+		D51B03DB1FB75D1600FD8203 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51B03D91FB75D1600FD8203 /* AVKit.framework */; };
+		D51B03DC1FB75D1600FD8203 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51B03DA1FB75D1600FD8203 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D51B03C61FB75CEA00FD8203 /* HeadPhonesCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadPhonesCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51B03CA1FB75CEA00FD8203 /* HeadPhonesCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadPhonesCheckerUITests.swift; sourceTree = "<group>"; };
 		D51B03CC1FB75CEA00FD8203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51B03D91FB75D1600FD8203 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D51B03DA1FB75D1600FD8203 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51B03DB1FB75D1600FD8203 /* AVKit.framework in Frameworks */,
+				D51B03DC1FB75D1600FD8203 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 				D51B03BE1FB75CEA00FD8203 /* HeadPhonesCheckerTests */,
 				D51B03C91FB75CEA00FD8203 /* HeadPhonesCheckerUITests */,
 				D51B03A81FB75CE900FD8203 /* Products */,
+				D51B03D81FB75D1600FD8203 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +130,15 @@
 				D51B03CC1FB75CEA00FD8203 /* Info.plist */,
 			);
 			path = HeadPhonesCheckerUITests;
+			sourceTree = "<group>";
+		};
+		D51B03D81FB75D1600FD8203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D51B03DA1FB75D1600FD8203 /* AVFoundation.framework */,
+				D51B03D91FB75D1600FD8203 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGE53N9MG6;
 				INFOPLIST_FILE = HeadPhonesChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.test.HeadPhonesChecker;
@@ -441,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGE53N9MG6;
 				INFOPLIST_FILE = HeadPhonesChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.test.HeadPhonesChecker;
